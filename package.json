@@ -1,7 +1,7 @@
 {
-  "homepage": "https://jgc-code.github.io/",
+  "homepage": "https://jgc-code.github.io/JG",
   "name": "jgconstrucoes",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
