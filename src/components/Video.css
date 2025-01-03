@@ -1,0 +1,14 @@
+.video-container {
+  width: 100%; /* Largura total */
+  margin-top: 20px; /* Espaçamento acima do elemento */
+  border-top: 3px solid #38383857; /* Linha no topo */
+  padding-top: 50px; /* Espaço entre a linha e o vídeo */
+}
+
+.video-player {
+  width: 100%;
+  height: auto; /* Ajusta a altura automaticamente proporcional à largura */
+  max-height: 100%; /* Garante que o vídeo não ultrapasse o container */
+}
+
+  

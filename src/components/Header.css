@@ -1,0 +1,105 @@
+header {
+    position: fixed;
+    top: 0;          
+    left: 0;         
+    width: 100%;
+    height: 8%;     
+    background-color: #fff; 
+    z-index: 1000;  
+    display: flex;   
+    justify-content: space-between; /* Espaço entre telefone e logos */
+    align-items: center; 
+    padding: 0.5rem 1rem; 
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.telephone {
+    display: flex; 
+    align-items: center; 
+    gap: 3rem; 
+    color: black;
+    font-size: 1.1rem;
+    margin-left: 40px;
+}
+
+
+.logos {
+    display: flex;
+    gap: 1.2rem; 
+    margin-right: 40px; 
+    margin-top:5px
+}
+
+.logos img {
+    width: 25px; 
+    height: 25px;
+    object-fit: contain; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .telephone {
+        gap: 2.5rem; 
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .logos {
+        margin-right: 35px;
+        gap: 0.8rem;
+    }
+
+    .logos img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .header-container {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5em;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .header-container {
+        display: flex;
+        flex-direction: row; 
+        gap: 0.8rem; 
+    }
+
+    .telephone {
+        font-size: 1rem; 
+        margin-left: 20px;
+    }
+
+    .logos {
+        margin-right: 30px; 
+        gap: 0.5rem; 
+    }
+
+    .logos img {
+        width: 20px;
+        height: 20px; 
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .telephone {
+        font-size: 0.8rem; 
+        margin-left: 10px;
+    }
+
+    .logos {
+        margin-right: 40px; 
+        gap: 0.5rem; 
+    }
+
+    .logos img {
+        width: 17px;
+        height: 17px; 
+    }
+    
+}

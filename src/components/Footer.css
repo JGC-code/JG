@@ -1,0 +1,96 @@
+footer.footer {
+  background-color: var(--color-green);
+  color: var(--color-gray);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  gap: 20px; /* Espaçamento adicional entre as seções */
+  width: 100%; /* Ocupa toda a largura da tela */
+}
+
+.footer-section {
+  flex: 1; /* Ocupa todo o espaço disponível */
+  text-align: left; /* Mantém o texto alinhado à esquerda */
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333; /* Para contraste com o fundo */
+}
+
+.footer-section p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: white;
+  line-height: 1.5; /* Melhor espaçamento entre as linhas */
+}
+
+@media screen and (max-width: 768px) {
+
+
+  footer.footer {
+    flex-direction: row; /* Empilha as seções verticalmente em telas menores */
+    align-items: flex-start; /* Alinha à esquerda no modo empilhado */
+    padding: 20px; /* Reduz o padding em telas pequenas */
+    width: 100%; /* Ocupa toda a largura da tela */
+  }
+
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 0.8rem;
+    color: white;
+    line-height: 0.9; /* Melhor espaçamento entre as linhas */
+  }
+  
+}
+
+@media screen and (max-width: 438) {
+
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 0.75em;
+    color: white;
+    line-height: 0.7; /* Melhor espaçamento entre as linhas */
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 0.7em;
+    color: white;
+    line-height: 0.7; /* Melhor espaçamento entre as linhas */
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 0.6rem;
+    color: white;
+    line-height: 0.7; /* Melhor espaçamento entre as linhas */
+  }
+}
+
+@media screen and (max-width: 342px) {
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 0.55rem;
+    color: white;
+    line-height: 0.7; /* Melhor espaçamento entre as linhas */
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 0.5rem;
+    color: white;
+    line-height: 0.7; /* Melhor espaçamento entre as linhas */
+  }
+  
+}
